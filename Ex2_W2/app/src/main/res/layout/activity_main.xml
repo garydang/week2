@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+                android:text="       Login"
+                android:background="#8B002AFF"
+                android:textColor="#DCF7F7FA"
+                android:layout_gravity="center_vertical"
+                android:gravity="bottom"
+                android:textSize="35sp"
+                android:layout_width="609dp"
+                android:layout_height="120dp"/>
+        <TextView
+                android:text="                and you can discover best news around"
+                android:background="#8B002AFF"
+                android:textColor="#DCF7F7FA"
+                android:layout_gravity="center_vertical"
+                android:gravity="top"
+                android:textSize="15sp"
+                android:layout_width="609dp"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="                the world"
+                android:background="#8B002AFF"
+                android:textColor="#DCF7F7FA"
+                android:layout_gravity="center_vertical"
+                android:gravity="top"
+                android:textSize="15sp"
+                android:layout_width="609dp"
+                android:layout_height="70dp"/>
+        <EditText
+                android:text="Email"
+                android:layout_gravity="center"
+                android:layout_marginTop="115dp"
+                android:textColor="#CECACA"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:text="Password (optinal)"
+                android:layout_gravity="center"
+                android:textColor="#CECACA"
+                android:layout_marginTop="10dp"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"/>
+        <CheckBox
+                android:text="Remember me"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:text="LOGIN"
+                android:textColor="#FDFCFD"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/login"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
